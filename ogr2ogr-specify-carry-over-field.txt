@@ -1,0 +1,7 @@
+-select field_list
+
+
+
+ogr2ogr -f "ESRI Shapefile" -select "Id" /Users/danielmsheehan/Desktop/ogr_test/test_sj_f.shp /Users/danielmsheehan/Desktop/ogr_test/test_sj.shp
+
+
