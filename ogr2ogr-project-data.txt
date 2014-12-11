@@ -1,0 +1,17 @@
+http://gis.stackexchange.com/questions/19763/how-to-add-a-projection-to-a-shapefile-using-open-source-tools
+
+Use ogr2ogr from GDAL:
+
+ogr2ogr -a_srs EPSG:2066 output.shp input.shp
+
+What's neat about ogr is that it can use an existing PRJ file as input as well:
+
+ogr2ogr -a_srs input.prj output.shp input.shp
+
+shareeditflag
+edited Feb 3 '12 at 22:06
+
+answered Feb 3 '12 at 20:23
+
+SaultDon
+3,7461138
