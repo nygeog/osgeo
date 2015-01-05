@@ -1,0 +1,7 @@
+ogr2ogr -update -append merge.shp %f  -f “esri shapefile” -nln merge 
+
+
+
+ogr2ogr merge.shp buffer1.shp
+ogr2ogr -update -append merge.shp buffer2.shp -nln merge
+ogr2ogr -update -append merge.shp buffer3.shp -nln merge
