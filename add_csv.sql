@@ -1,0 +1,1 @@
+﻿COPY taxi_2013_m07 FROM '/Users/danielmsheehan/Dropbox/data/output/all/taxi_2013_m07.csv' DELIMITERS ',' CSV HEADER;

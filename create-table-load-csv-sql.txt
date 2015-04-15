@@ -1,0 +1,16 @@
+CREATE TABLE nycdata (
+    BOROUGH varchar,
+    BLOCK varch,
+    DATE date,
+    VERSION numeric);
+
+COPY nycdata FROM '/Users/macbook/data.csv' DELIMITERS ',' CSV HEADER;
+
+CREATE TABLE taxi_2013_m07 (
+	tuid varchar,
+	dist_roadbed numeric,
+	geoid varchar,
+	dist_bldg_hght numeric,
+	type varchar);
+
+COPY taxi_2013_m07 FROM '/Users/danielmsheehan/Dropbox/data/output/all/taxi_2013_m07.csv' DELIMITERS ',' CSV HEADER;
