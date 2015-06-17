@@ -1,0 +1,12 @@
+<div class="cartodb-popup v2">
+  <a href="#close" class="cartodb-popup-close-button close">x</a>
+  <div class="cartodb-popup-content-wrapper">
+    <div class="cartodb-popup-content">
+      <h4>geoid</h4>
+      <p>{{geoid}}</p>
+      <h4>t10pcunemp</h4>
+      <p>{{t10pcunemp}}</p>
+    </div>
+  </div>
+  <div class="cartodb-popup-tip-container"></div>
+</div>
