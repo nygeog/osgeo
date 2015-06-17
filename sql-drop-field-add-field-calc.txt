@@ -1,0 +1,4 @@
+ALTER TABLE ct10 DROP COLUMN geoid RESTRICT;
+ALTER TABLE ct10 ADD COLUMN geoid varchar(11);
+UPDATE ct10 SET geoid = RIGHT(geoid_text, 11)
+
