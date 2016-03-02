@@ -1,0 +1,1 @@
+ogr2ogr -f KML gps_z18n_3d.kml gps_z18n_3d.shp
