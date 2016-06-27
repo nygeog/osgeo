@@ -10,3 +10,10 @@ so, in the terminal, use the command:
 Get formats
 
 	ogrinfo --formats
+
+
+Install GEOS
+http://stackoverflow.com/questions/12578471/oserror-geos-c-could-not-be-found-when-installing-shapely
+
+	brew install geos
+
