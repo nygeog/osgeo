@@ -17,3 +17,5 @@ http://stackoverflow.com/questions/12578471/oserror-geos-c-could-not-be-found-wh
 
 	brew install geos
 
+[Get your GPS locations into Spatialite](http://www.surfaces.co.il/get-your-gps-locations-into-spatialite/)
+http://www.surfaces.co.il/get-your-gps-locations-into-spatialite/
